@@ -42,6 +42,9 @@
             ?>
         </table>
     </form>
+    <form method="post" action="inputjadwal.php">
+        <input type="submit" name="btnsubmit" value="Ubah Jadwal">
+    </form>
 </body>
 
 </html>
