@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +10,12 @@
     <form action="post">
         <label for="">Mahasiswa : </label>
         <select id="selMahasiswa">
-            <option value=""></option>
+            <option value="">--Pilih Mahasiswa--</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
         </select>
+        <input type="submit" name="btnsubmit" value="Pilih Mahasiswa">
     </form>
 </body>
 </html>
