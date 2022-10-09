@@ -10,8 +10,7 @@ class mahasiswa extends orangtua
 
     public function getMahasiswa()
     {
-        $sql = "SELECT * FROM mahasiswa";
-        $stmt = $this->mysqli->prepare($sql);
-        $stmt->execute();
+        $stmt = $this->mysqli->query("SELECT * FROM mahasiswa");
+        return $stmt;
     }
 }
